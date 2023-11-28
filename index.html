@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cost per Square Metre Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+      <h1 class="text-center">Calculate cost per square meter</h1>
+      <div class="calculator">
+        <div>
+          <label for="alto">Height</label>
+          <input type="number" id="alto">
+        </div>
+        <div>
+          <label for="ancho">Width</label>
+          <input type="number" id="ancho">
+        </div>
+        <div>
+          <button id="m2TotalButton" class="button flex">Calculate square meter</button>
+        </div>
+        <div class="flex justify-center bold">
+          <p>Total: </p>
+          <p class="totalm2"></p>
+        </div>
+  
+        <div>
+          <label for="precioPorM2">Price per square meter: </label>
+          <input type="number" id="precioPorM2">
+        </div>
+        <div class="flex">
+          <button id="costoTotalButton" class="button">Calculate total cost</button>
+  
+        </div>
+  
+        <div class="result flex justify-center bold">
+          <p>Total cost: </p>
+          <p class="costototal"></p>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
+
